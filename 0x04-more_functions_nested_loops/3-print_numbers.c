@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_numbers - prints 0 to 9
  *
@@ -8,12 +9,14 @@
 
 void print_numbers(void)
 {
+	int i = 0;
 
-	for (char i = '0' ; i <= '9' ; i++)
+	while (i <= 9)
 	{
-		_putchar(i);
+		_putchar('0' + i);
+		i++;
 	}
 	{
-		_putchar('\n');
+	_putchar('\n');
 	}
 }

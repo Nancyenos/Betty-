@@ -2,7 +2,7 @@
 /**
  *print_most_numbers - prints 0 to 9 except 2 &4
  *Return: void
- *@i: parameter
+ *@c: parameter
  *
  */
 void print_most_numbers(void)

@@ -56,14 +56,7 @@ int main(int argc, char *argv[])
 	}
 	num_a = _atoi(argv[1]);
 	num_b = _atoi(argv[2]);
-
-	if (num_a == 0 || num_b == 0)
-	{
-		printf("Error\n");
-		return (1);
-	}
 	multiply = num_a * num_b;
-
 	printf("%d\n", multiply);
 	return (0);
 }

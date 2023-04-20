@@ -3,6 +3,7 @@
 /**
  * sum_them_all - adds all parameters
  * @n: one of the numbers
+ * @...: more variables
  * Return: int
  */
 

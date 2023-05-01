@@ -3,7 +3,7 @@
 /**
  * add_nodeint_end - add new node at the end
  * @head: pointer to first node
- * @n: data 
+ * @n: data
  * Return: null on failure, newnode on success
  */
 
